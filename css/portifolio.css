@@ -1,5 +1,9 @@
 .portifolio {
-  background-color: #1d1c1f;
+  background: linear-gradient(
+    to right,
+    rgba(67, 4, 106, 1),
+    rgba(4, 0, 146, 1)
+  );
   color: #fff;
 }
 
@@ -13,7 +17,7 @@
 }
 
 .portifolio .subtitulo {
-  color: #474648;
+  color: #939393;
   font-size: 4rem;
 }
 
@@ -37,7 +41,7 @@
 
 .portifolio-exemplo {
   flex: 200px;
-  background: #939295;
+  background: #130d24;
   padding: 20px;
   border-radius: 0 4px 4px 4px;
   display: flex;
@@ -69,7 +73,7 @@
 
 .portifolio-site-texto {
   font-size: 1.125rem;
-  color: #383739;
+  color: #939295;
   padding: 20px;
 }
 
