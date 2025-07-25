@@ -133,10 +133,11 @@
     gap: 40px;
   }
   .formacao .subtitulo {
-    color: #fff;
+    color: #e0e0e0;
+    font-size: 2rem;
   }
   .formacao-texto {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   .formacao-extra h3::before {
     position: initial;

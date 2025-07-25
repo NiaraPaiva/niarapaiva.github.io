@@ -58,10 +58,10 @@
 }
 
 @media (max-width: 800px) {
-  .introducao {
+  .introducao-container {
     grid-template-columns: 1fr 1fr;
     text-align: center;
-    gap: 40px;
+    gap: 30px;
   }
 
   .introducao h1 {
@@ -69,10 +69,10 @@
   }
 
   .introducao h1::before {
-    width: 30px;
-    height: 10px;
-    top: 0px;
-    left: 0px;
+    display: none;
+  }
+  .introducao h1::after {
+    display: none;
   }
 }
 

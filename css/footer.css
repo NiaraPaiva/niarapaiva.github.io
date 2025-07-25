@@ -1,91 +1,96 @@
 .footer {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 .footer-container {
-    max-width: 1200px;
-   grid-template-columns: 1fr 1fr;
-   padding: 120px 20px 60px 20px;
-   margin: 0 auto;
-   display: grid;
-   gap: 100px;
-   align-items: center;
+  max-width: 1200px;
+  grid-template-columns: 1fr 1fr;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  gap: 100px;
+  align-items: center;
 }
 
 .footer-texto {
-    font-size: 1.5rem;
-    line-height: 1.33;
-    color: #525252;
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #525252;
 }
 
 .footer-container p::before {
-content: "";
-display: flex;
-width: 130px;
-height: 100px;
-background: url('../img/detalhe3.svg')no-repeat center;
-position:relative;
-top: 55px;
-left : -90px;
+  content: "";
+  display: flex;
+  width: 130px;
+  height: 100px;
+  background: url("../img/detalhe3.svg") no-repeat center;
+  position: relative;
+  top: 55px;
+  left: -90px;
 }
 
 .footer-container p::after {
-content: "";
-display: block;
-width: 130px;
-height: 100px;
-background: url('../img/detalhe4.svg')no-repeat center;
-position:relative;
-top: -55px;
-left : 380px;
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url("../img/detalhe4.svg") no-repeat center;
+  position: relative;
+  top: -55px;
+  left: 380px;
 }
 
 .footer-contato h3 {
-    font-size: 1.125rem;
-    color: #939295;
+  font-size: 1.125rem;
+  color: #939295;
 }
 
 .footer-contato h3::before {
-    content: "";
-    display: block;
-    width: 24px;
-    height: 24px;
-    position:relative;
-    left: -36px;
-    top: 20px;
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: -36px;
+  top: 20px;
 }
 
 .gmail h3::before {
-    background: url(../img/email.svg) no-repeat center center;
+  background: url(../img/email.svg) no-repeat center center;
 }
 
 .telefone h3::before {
-    background: url(../img/telefone.svg) no-repeat center center;
+  background: url(../img/telefone.svg) no-repeat center center;
 }
 
 .linkedin h3::before {
-    background: url(../img/social.svg) no-repeat center center;
+  background: url(../img/social.svg) no-repeat center center;
 }
 
 .footer-copyright {
-    margin-top: 20px;
-    font-size: 0.875rem;
-    color: #939295;
+  margin-top: 20px;
+  font-size: 0.875rem;
+  color: #939295;
 }
 
-
-
 @media (max-width: 800px) {
-    .footer-container {
-        grid-template-columns: 1fr;
-        gap: 40px;
-    }
-    .footer-contato {
-        font-size: 1.125rem;
-    }
-    .footer-contato h3::before {
-        position: initial;
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .footer-contato {
+    font-size: 1.125rem;
+  }
+  .footer-contato h3::before {
+    position: initial;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .footer-container p::after {
+    display: none;
+  }
+  .footer-container p::before {
+    display: none;
+  }
 }
