@@ -108,7 +108,14 @@
     gap: 30px;
   }
   .portifolio .subtitulo {
-    color: #e0e0e0;
+    background: linear-gradient(
+      to right,
+      rgba(29, 95, 218, 1),
+      rgba(30, 238, 202, 1)
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     font-size: 2rem;
   }
   .portifolio-texto {
