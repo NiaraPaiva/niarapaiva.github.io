@@ -1,9 +1,6 @@
 .introducao {
-  background: linear-gradient(
-    to right,
-    rgba(67, 4, 106, 1),
-    rgba(4, 0, 146, 1)
-  );
+  background: linear-gradient(to right, rgba(67, 4, 106, 1), rgba(1, 0, 56, 1));
+
   color: #fff;
 }
 
@@ -22,6 +19,14 @@
   line-height: 1.125;
   margin-bottom: 30px;
   position: relative;
+  background: linear-gradient(
+    to right,
+    rgba(29, 95, 218, 1),
+    rgba(30, 238, 202, 1)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .introducao h1::before {

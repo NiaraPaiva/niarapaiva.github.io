@@ -1,9 +1,6 @@
 .header {
-  background: linear-gradient(
-    to right,
-    rgba(67, 4, 106, 1),
-    rgba(4, 0, 146, 1)
-  );
+  background: linear-gradient(to right, rgba(67, 4, 106, 1), rgba(1, 0, 56, 1));
+
   color: #ffffff;
 }
 
