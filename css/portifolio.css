@@ -106,6 +106,7 @@
     grid-template-columns: 1fr;
     padding: 60px 20px;
     gap: 30px;
+    flex-direction: column;
   }
   .portifolio .subtitulo {
     background: linear-gradient(
@@ -117,6 +118,17 @@
     background-clip: text;
     color: transparent;
     font-size: 2rem;
+  }
+
+  .portifolio-container {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  .portifolio-exemplo .site-imagem {
+    display: none;
   }
   .portifolio-texto {
     font-size: 1rem;
