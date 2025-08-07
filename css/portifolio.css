@@ -122,3 +122,9 @@
     font-size: 1rem;
   }
 }
+
+@media (max-width: 400px) {
+  .portifolio-exemplo {
+    grid-template-columns: 1fr;
+  }
+}
