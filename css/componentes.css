@@ -57,7 +57,25 @@
 }
 
 .botao-animais:hover {
-  background: linear-gradient(#ffb60d, #e59317);
+  background: #e54;
+}
+
+.botao-flexblog {
+  flex: 1 1 260px;
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #2c70ff;
+  color: white;
+  margin: 0;
+  cursor: pointer;
+  border: 0px;
+  padding: 15px 10px;
+}
+
+.botao-flexblog:hover {
+  background: #122ab2;
 }
 
 @media (max-width: 600px) {
@@ -66,6 +84,10 @@
     font-size: 1rem;
   }
   .botao-bickraft a {
+    padding: 12px 16px;
+    font-size: 1rem;
+  }
+  .botao-flexblog a {
     padding: 12px 16px;
     font-size: 1rem;
   }

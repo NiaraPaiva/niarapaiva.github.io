@@ -127,16 +127,16 @@
     flex-direction: column;
   }
 
-  .portifolio-exemplo .site-imagem {
-    display: none;
-  }
   .portifolio-texto {
     font-size: 1rem;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .portifolio-exemplo {
     grid-template-columns: 1fr;
+  }
+  .portifolio-exemplo .site-imagem {
+    display: none;
   }
 }
