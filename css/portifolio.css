@@ -52,16 +52,22 @@
 .portifolio-exemplo::before {
   content: "";
   display: block;
-  width: 20px;
-  height: 20px;
-  background: linear-gradient(#a153e5, #b220be);
+  width: 35px;
+  height: 15px;
+  background: linear-gradient(
+    to right,
+    rgba(29, 95, 218, 1),
+    rgba(30, 238, 202, 1)
+  );
   position: relative;
+  margin-top: 10px;
+  margin-left: -20px;
 }
 
 .portifolio-exemplo {
   grid-template-columns: 1fr 1fr;
   flex: 200px;
-  background: #adadad;
+  background: rgba(45, 19, 126, 1);
   display: grid;
   flex-direction: column;
   position: relative;
@@ -74,6 +80,8 @@
     30px 100%,
     0 calc(100% - 30px)
   );
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 
 .portifolio-exemplo .site-imagem {
@@ -93,7 +101,7 @@
   display: flex;
   font-size: 0.875rem;
   line-height: 1.4;
-  color: #525252;
+  color: rgba(204, 204, 204, 1);
   margin-left: 20px;
 }
 

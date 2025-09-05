@@ -60,8 +60,8 @@
   height: 10px;
   background: linear-gradient(#a153e5, #b220be);
   position: absolute;
-  top: 20px;
-  left: -30px;
+  top: 10px;
+  left: -20px;
 }
 
 .empresa-ano {
@@ -78,6 +78,7 @@
   line-height: 1.1;
   font-weight: bold;
   margin-bottom: 10px;
+  margin-left: 10px;
 }
 
 .empresa-texto {
